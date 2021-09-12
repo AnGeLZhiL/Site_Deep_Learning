@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.ff-ss {
+  font-family: 'Scada', sans-serif;
+}
+
+.fs-80px {
+  font-size: 80px;
+}
+
+.fs-35px {
+  font-size: 35px;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.fs-20px {
+  font-size: 20px;
+}
+
+.example-2 .btn-tertiary{color:#000;padding:0;line-height:40px;width:300px;margin:auto;display:block;border:3px solid #000}
+.example-2 .btn-tertiary:hover,.example-2 .btn-tertiary:focus{color:#000;border-color:#000}
+.example-2 .input-file{width:.1px;height:.1px;opacity:0;overflow:hidden;position:absolute;z-index:-1}
+.example-2 .input-file + .js-labelFile{overflow:hidden;border-radius: 10px;text-overflow:ellipsis;white-space:nowrap;padding:0 10px;cursor:pointer}
+.example-2 .input-file + .js-labelFile .icon:before{content:"\f093"}
+.example-2 .input-file + .js-labelFile.has-file .icon:before{content:"\f00c";color:#000}
+
+.jc-c {
+  justify-content: center;
+}
+
+.m-30 {
+  margin: 30px;
+}
+
+.m-100 {
+  margin: 100px;
+}
+
+body {
+  height: 100%;
+  background-color: #E7E7E7;
+}
+
+.p {
+  padding: 9px 35px 9px 35px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.b-r {
+  border-radius: 10px;
+}
+
+button {
+  background-color: #00923F;
+  border: none;
+  color: #fff;
+}

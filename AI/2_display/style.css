@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid.grid-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.ff-ss {
+  font-family: 'Scada', sans-serif;
+}
+
+.f-z-30 {
+  font-size: 30px;
+}
+
+.p-50 {
+  padding: 20px 50px;
+}
+
+.m {
+  margin: 50px;
+}
+.gap-20 {
+  gap: 20px;
+}
+
+button {
+  background-color: #00923F;
+  border: none;
+  color: #fff;
+}
+
+.b-r {
+  border-radius: 10px;
+}
+
+.b-000 {
+  border: 3px solid #000;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+/*обджект чтобы не сжималось*/
+.grid.grid-2-2 {
+  grid-template-rows: 5fr 1fr;
+}
+
+img {
+  width: 50vw;
+  margin: 13px 40px;
+}
+
+.bgc-666 {
+  background-color: #666666;
+}
+
+body {
+  height: 100%;
+  background-color: #E7E7E7;
+}
